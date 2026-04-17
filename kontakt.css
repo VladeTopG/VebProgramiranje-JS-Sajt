@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  background-image: url('slike/matrix1.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  background-color: #005461;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+header {
+  background-color: #0e767e;
+  border-radius: 15px;     
+  border: 1px solid black;
+  padding: 5px 5px;
+  text-align: center;
+  color: black;
+  display: block;
+  margin: 10px auto;    
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  font-size: 22px;
+}
+header h1,
+header .fw-bold {
+  color: black;
+}
+h2{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navig {
+  background-color: #0e767e;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin: 15px auto;
+  max-width: 1000px;
+}
+.navig .nav-link {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+.navig .nav-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.content {
+  background-color: #005461;
+  border-radius: 15px;
+  color: black;
+}
+.contact-box {
+  background-color: #0e767e;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.contact-box h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact-box input,
+.contact-box textarea,
+.contact-box select {
+  margin: 10px auto;
+  width: 90%;
+  display: block;
+  text-align: center;
+  font-family: 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color: #429494;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.contact-box label {
+  display: block;
+  text-align: center;
+  font-family: 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+.contact-box input:focus,
+.contact-box textarea:focus,
+.contact-box select:focus {
+  outline: none;
+  border: 2px solid black;
+  background-color: #429494;
+  color: black;
+}
+
+.contact-box button {
+  background-color: #429494;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 10px 10px;
+  border: 2px solid black;
+}
+.contact-box button:hover {
+  background-color: #429494;
+  color: white;
+  font-weight: bold;
+  border: 2px black solid;
+}
+
+.text-left img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.site-footer {
+  background-color: #005461;
+  color: black;
+  font-family: 'Trebuchet MS', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
